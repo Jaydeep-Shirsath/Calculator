@@ -17,6 +17,8 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
+speak("by Jaydeep")    
+
 speak("Enter Your Number 1")
 num1 = int(input("Enter Your Number 1: "))
 speak("Enter Your Number 2")
@@ -38,10 +40,10 @@ print("""For Addition press 4:
 
 """)
 
-speak("For multiplication press 1: For Division press 2: For Subtraction press 3: For Addition press 4:")
+speak("For multiplication press 1:, For Division press 2:, For Subtraction press 3:, For Addition press 4:")
 
 speak("Enter Your Fraction Number")
-num7 = int(input("Enter Your Fraction Number "))
+num7 = int(input("Enter Your Fraction Number: "))
 
 
 if num7 == 1:
@@ -73,3 +75,4 @@ print("""
   |_| |_| |_|\__,_|_| |_|_|\_\___/ |_|  \___/|_|     \___/|___/_|_| |_|\__, |
                                                                        |___/ 
 """)     
+speak("Thanks For Using.")
